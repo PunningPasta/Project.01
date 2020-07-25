@@ -1,0 +1,69 @@
+body {
+    margin-top: 0;
+    margin-right: 20px;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+textarea {
+    display: block;
+    height: 50vh;
+    width: 50%;
+    font-size: 24px;
+}
+
+.main {
+    padding: 10px;
+}
+
+.SearchForm {
+    width: auto;
+    font-size: 15px;
+    line-height: 15px;
+    background-color: aquamarine;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 1000px;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: -20px;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: aqua;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+.nav-link:hover {
+    color: azure;
+}
+
+li {
+    list-style-type: circle;
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+a {
+    color: olivedrab;
+}
+
+a:hover {
+    color: olive;
+}

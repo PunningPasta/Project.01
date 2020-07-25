@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> Create New Entry </title>
+        <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="{% static 'encyclopedia/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="row">
+            <div class="sidebar col-lg-2 col-md-3">
+                <h3> New Entry </h3>
+                <form>
+                    <input class="search" type="text" name="q" placeholder="Search Encyclopedia" />
+                </form>
+                <div>
+                    <a href="index.html"> Home </a>
+                </div>
+                <div>
+                    Create New Entry
+                    <br></br>
+                    <form action="index.html" method="post">
+                        <label for="title"> Put title here </label>
+                        <textarea id="title" name="title" rows="1" cols="10">
+                        </textarea>
+                        <label for="content"> Put Information here </label>
+                        <textarea id="content" name="content" rows="5" cols="50">
+                        </textarea>
+                        <br></br>
+                        <input type="submit" value="submit" />
+                    </form>
+
+                </div>
+                <div>
+                    Random Page
+                </div>
+                {% block nav %}
+                {% endblock %}
+            </div>
+            <div class="main col-lg-10 col-md-9">
+
+            </div>
+        </div>
+
+    </body>
+</html>
